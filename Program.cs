@@ -32,7 +32,7 @@ namespace CMP1903M_2
         // from the list, before checking if the file is in that list and returning it if so.
         static string ChooseFile(string[] options)
         {
-            Console.WriteLine("Please enter a file: ");
+            Console.WriteLine("Please enter a file (can enter in full or just the suffix): ");
             string input = Console.ReadLine();
             foreach(string item in options)
             {
