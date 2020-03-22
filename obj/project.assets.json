@@ -15,11 +15,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Programming\\Uni Work\\CMP1093M Assessment 2\\CMP1903M-2\\CMP1903M-2.csproj",
+      "projectUniqueName": "C:\\Users\\domin\\Source\\Repos\\CMP1903M-Assignment-2\\CMP1903M-2.csproj",
       "projectName": "CMP1903M-2",
-      "projectPath": "D:\\Programming\\Uni Work\\CMP1093M Assessment 2\\CMP1903M-2\\CMP1903M-2.csproj",
+      "projectPath": "C:\\Users\\domin\\Source\\Repos\\CMP1903M-Assignment-2\\CMP1903M-2.csproj",
       "packagesPath": "C:\\Users\\domin\\.nuget\\packages\\",
-      "outputPath": "D:\\Programming\\Uni Work\\CMP1093M Assessment 2\\CMP1903M-2\\obj\\",
+      "outputPath": "C:\\Users\\domin\\Source\\Repos\\CMP1903M-Assignment-2\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\",

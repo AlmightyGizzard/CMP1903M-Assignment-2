@@ -9,3 +9,14 @@ D:\Programming\Uni Work\CMP1093M Assessment 2\CMP1903M-2\obj\Debug\netcoreapp3.1
 D:\Programming\Uni Work\CMP1093M Assessment 2\CMP1903M-2\obj\Debug\netcoreapp3.1\CMP1903M-2.AssemblyInfo.cs
 D:\Programming\Uni Work\CMP1093M Assessment 2\CMP1903M-2\obj\Debug\netcoreapp3.1\CMP1903M-2.dll
 D:\Programming\Uni Work\CMP1093M Assessment 2\CMP1903M-2\obj\Debug\netcoreapp3.1\CMP1903M-2.pdb
+C:\Users\domin\Source\Repos\CMP1903M-Assignment-2\bin\Debug\netcoreapp3.1\CMP1903M-2.exe
+C:\Users\domin\Source\Repos\CMP1903M-Assignment-2\bin\Debug\netcoreapp3.1\CMP1903M-2.deps.json
+C:\Users\domin\Source\Repos\CMP1903M-Assignment-2\bin\Debug\netcoreapp3.1\CMP1903M-2.runtimeconfig.json
+C:\Users\domin\Source\Repos\CMP1903M-Assignment-2\bin\Debug\netcoreapp3.1\CMP1903M-2.runtimeconfig.dev.json
+C:\Users\domin\Source\Repos\CMP1903M-Assignment-2\bin\Debug\netcoreapp3.1\CMP1903M-2.dll
+C:\Users\domin\Source\Repos\CMP1903M-Assignment-2\bin\Debug\netcoreapp3.1\CMP1903M-2.pdb
+C:\Users\domin\Source\Repos\CMP1903M-Assignment-2\obj\Debug\netcoreapp3.1\CMP1903M-2.csprojAssemblyReference.cache
+C:\Users\domin\Source\Repos\CMP1903M-Assignment-2\obj\Debug\netcoreapp3.1\CMP1903M-2.AssemblyInfoInputs.cache
+C:\Users\domin\Source\Repos\CMP1903M-Assignment-2\obj\Debug\netcoreapp3.1\CMP1903M-2.AssemblyInfo.cs
+C:\Users\domin\Source\Repos\CMP1903M-Assignment-2\obj\Debug\netcoreapp3.1\CMP1903M-2.dll
+C:\Users\domin\Source\Repos\CMP1903M-Assignment-2\obj\Debug\netcoreapp3.1\CMP1903M-2.pdb
