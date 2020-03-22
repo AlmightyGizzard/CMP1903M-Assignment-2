@@ -8,7 +8,7 @@ namespace CMP1903M_2
 
         static string[] ShowDirectory()
         {
-            string[] files = Directory.GetFiles("../");
+            string[] files = Directory.GetFiles("../files/");
             foreach (string item in files)
             {
                 Console.WriteLine(item);
