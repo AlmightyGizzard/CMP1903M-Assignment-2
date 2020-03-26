@@ -1,10 +1,40 @@
 ﻿using System;
 using System.IO;
+using System.Linq;
 
 namespace CMP1903M_2
 {
     class Program
     {
+
+        static void Wrap()
+        {
+            ConsoleKey choice;
+            ConsoleKey[] options = new ConsoleKey[] { ConsoleKey.E, ConsoleKey.R };
+            do
+            {
+                Console.Write("Type 'e' to exit or 'r' to restart.");
+
+                choice = Console.ReadKey(true).Key;
+
+                if (choice != ConsoleKey.Enter)
+                {
+                    Console.ReadLine();
+                }
+
+            } while (!options.Contains(choice));
+
+            switch (choice)
+            {
+                case ConsoleKey.E:
+                    Console.WriteLine("Exiting...");
+                    break;
+                case ConsoleKey.R:
+                    Main();
+                    break;
+
+            }
+        }
 
         // This method is used whenever you need to view what files are in a directory.
         // It returns a string array of all of these options for future use.
@@ -38,7 +68,7 @@ namespace CMP1903M_2
             {
                 // I have used .Contains to allow the user to simply input the unique part of the filename,
                 // such as 1a or 1b - and still get the results they need.
-                if (item.Contains(input))
+                if (item.Contains(input) && input != "")
                 {
                     Console.WriteLine($"Found the file {item}.");
                     return item;
@@ -52,7 +82,7 @@ namespace CMP1903M_2
 
         // Run ChooseFile, letting them choose from the array of files given in the directory method.
         // Do this twice, once for each file. 
-        static void Main(string[] args)
+        static void Main()
         {
             string fileA = ChooseFile(ShowDirectory());
             string fileB = ChooseFile(ShowDirectory());
@@ -61,10 +91,12 @@ namespace CMP1903M_2
             if(FileContents(fileA) == FileContents(fileB))
             {
                 Console.WriteLine("The two files are the same.");
+                Wrap();
             }
             else
             {
                 Console.WriteLine("The two files are not the same.");
+                Wrap();
             }
 
 
